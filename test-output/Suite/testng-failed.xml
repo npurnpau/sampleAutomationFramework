@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="appURL" value="http://localhost:8080/"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="testbase.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="functional.VerifyExistingOwnersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="cleanScreenshotPath"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- functional.VerifyExistingOwnersTest -->
+      <class name="functional.VerifyExistingVeterinariansTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- functional.VerifyExistingVeterinariansTest -->
+      <class name="functional.VerifyHomeImageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- functional.VerifyHomeImageTest -->
+      <class name="functional.verifyAddNewOwnerAndPetTest">
+        <methods>
+          <include name="verifyAddNewOwnderAndPet"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- functional.verifyAddNewOwnerAndPetTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

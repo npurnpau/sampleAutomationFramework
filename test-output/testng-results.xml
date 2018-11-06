@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33859" started-at="2018-11-04T19:39:02Z" finished-at="2018-11-04T19:39:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33859" started-at="2018-11-04T19:39:02Z" finished-at="2018-11-04T19:39:36Z">
+      <class name="functional.verifyAddNewOwnerAndPetTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:functional.verifyAddNewOwnerAndPetTest@51565ec2]" name="initializeTestBaseSetup" is-config="true" duration-ms="6383" started-at="2018-11-05T01:09:17Z" finished-at="2018-11-05T01:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8080/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:functional.verifyAddNewOwnerAndPetTest@51565ec2]" name="setUp" is-config="true" duration-ms="1" started-at="2018-11-05T01:09:23Z" finished-at="2018-11-05T01:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyAddNewOwnderAndPet()[pri:0, instance:functional.verifyAddNewOwnerAndPetTest@51565ec2]" name="verifyAddNewOwnderAndPet" duration-ms="3628" started-at="2018-11-05T01:09:23Z" finished-at="2018-11-05T01:09:27Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at pages.FindOwnersPage.verifyNewlyAddedOwnerAndPet(FindOwnersPage.java:61)
+	at functional.verifyAddNewOwnerAndPetTest.verifyAddNewOwnderAndPet(verifyAddNewOwnerAndPetTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewOwnderAndPet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:functional.verifyAddNewOwnerAndPetTest@51565ec2]" name="tearDown" is-config="true" duration-ms="68" started-at="2018-11-05T01:09:27Z" finished-at="2018-11-05T01:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functional.verifyAddNewOwnerAndPetTest -->
+      <class name="functional.VerifyExistingOwnersTest">
+        <test-method status="PASS" signature="cleanScreenshotPath()[pri:0, instance:functional.VerifyExistingOwnersTest@7f9a81e8]" name="cleanScreenshotPath" is-config="true" duration-ms="16" started-at="2018-11-05T01:09:02Z" finished-at="2018-11-05T01:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanScreenshotPath -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:functional.VerifyExistingOwnersTest@7f9a81e8]" name="initializeTestBaseSetup" is-config="true" duration-ms="6391" started-at="2018-11-05T01:09:28Z" finished-at="2018-11-05T01:09:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8080/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:functional.VerifyExistingOwnersTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-05T01:09:34Z" finished-at="2018-11-05T01:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewOwnerTab()[pri:0, instance:functional.VerifyExistingOwnersTest@7f9a81e8]" name="verifyAddNewOwnerTab" duration-ms="1489" started-at="2018-11-05T01:09:34Z" finished-at="2018-11-05T01:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewOwnerTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:functional.VerifyExistingOwnersTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="64" started-at="2018-11-05T01:09:35Z" finished-at="2018-11-05T01:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functional.VerifyExistingOwnersTest -->
+      <class name="functional.VerifyExistingVeterinariansTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:functional.VerifyExistingVeterinariansTest@28feb3fa]" name="initializeTestBaseSetup" is-config="true" duration-ms="6625" started-at="2018-11-05T01:09:10Z" finished-at="2018-11-05T01:09:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8080/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:functional.VerifyExistingVeterinariansTest@28feb3fa]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-05T01:09:17Z" finished-at="2018-11-05T01:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyExistingVeterinarians()[pri:0, instance:functional.VerifyExistingVeterinariansTest@28feb3fa]" name="verifyExistingVeterinarians" duration-ms="486" started-at="2018-11-05T01:09:17Z" finished-at="2018-11-05T01:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExistingVeterinarians -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:functional.VerifyExistingVeterinariansTest@28feb3fa]" name="tearDown" is-config="true" duration-ms="104" started-at="2018-11-05T01:09:17Z" finished-at="2018-11-05T01:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functional.VerifyExistingVeterinariansTest -->
+      <class name="functional.VerifyHomeImageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:functional.VerifyHomeImageTest@675d3402]" name="initializeTestBaseSetup" is-config="true" duration-ms="8061" started-at="2018-11-05T01:09:02Z" finished-at="2018-11-05T01:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8080/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:functional.VerifyHomeImageTest@675d3402]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-05T01:09:10Z" finished-at="2018-11-05T01:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CheckImage()[pri:0, instance:functional.VerifyHomeImageTest@675d3402]" name="CheckImage" duration-ms="69" started-at="2018-11-05T01:09:10Z" finished-at="2018-11-05T01:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckImage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:functional.VerifyHomeImageTest@675d3402]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-11-05T01:09:10Z" finished-at="2018-11-05T01:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functional.VerifyHomeImageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
